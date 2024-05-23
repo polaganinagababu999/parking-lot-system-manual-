@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="new2.css">
+    <title>contact us</title>
+</head>
+
+<body>
+
+<div class="contact-container">
+   
+    <div class="left-col">
+        <!--<img class="logo" src="https://www.indonesia.travel/content/dam/indtravelrevamp/en/logo.png"/>-->
+        <h3 class="logo">ParKinG<br>LoT<ion-icon class="spark" name="sparkles-sharp"></ion-icon>
+        </h3>
+      </div>
+    <div class="right-col">
+      <a href="isha2.html" ><button>Back to home</button></a>
+      <br><br>
+      <h1>Contact us</h1>         
+      <p>For Suggestions,Queries,Appreciations any kind of feedback..we Welcome you.</p>
+      
+      <form id="contact-form" method="post">
+        <label for="name">Full name</label>
+    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+        <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+        <label for="message">Message</label>
+    <textarea rows="6" placeholder="Your Message" id="message" name="message" required></textarea>
+    <button type="submit" id="submit" name="submit">Send</button>
+    
+  </form>
+  <div id="error"></div>
+  <div id="success-msg"></div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

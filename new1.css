@@ -1,0 +1,214 @@
+/*Main Page II CSS*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif ;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('lot1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo{
+    font-size: 3em;
+    font-weight: bold;
+    color:black;
+    user-select: none;
+}
+.spark{
+    color:rgb(225, 225, 17);
+}
+
+.nav a{
+    position: relative;
+    font-size: 1.1em;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:-6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.nav a:hover:after{
+    transform-origin: left;
+   transform:scaleX(1)
+}
+
+.bits{
+   margin-top: -420px;
+   margin-bottom: 100px;
+   margin-right: 0px;
+   margin-left: 500px;
+   background-color: rgb(2, 40, 73);
+   border-radius: 10px;
+   padding-left: 50px;
+   padding-top: 20px;
+   padding-bottom: 25px;
+}
+
+
+.bits h1{
+    align-items: center;
+    margin-left: 230px;
+    color: #fff;
+}
+.bits h2{
+   color: #fff;
+}
+.bits .slots{
+  background-color: rgb(145, 237, 7);
+    color:black; 
+    height: 50px;
+    width: 35px;
+    border-radius: 5px;
+    border-color:black;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.total{
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.info{
+    background-color: rgb(2, 40, 73);
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 950px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-right: 45px;
+    padding-left:  45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-radius: 5px;
+    
+}
+
+.info h3{
+    position: center;
+    padding-left: 28px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.info label{
+    color: #fff;
+}
+.info form button{
+    position: center;
+    padding-left: 60px;
+    padding-right: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    background-color: #fff;
+}
+.info form input{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.tabs{
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-right: 200px;
+    margin-left: 150px;
+    background-color: rgb(2, 40, 73);
+
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+ }
+ .tabs h1{
+    align-items: center;
+    margin-left: 320px;
+    font-size: 30px;
+    color: #fff;
+ }
+ .tabs .sl{
+    color:black; 
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+ }
+ 
+ .tabs .sls{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: yellow;
+ }
+
+ .tabs .mid{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+    width: 170px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: white;
+ }

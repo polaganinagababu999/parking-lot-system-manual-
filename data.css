@@ -1,0 +1,66 @@
+body{
+   background-color: aliceblue;
+}
+.tabs{
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-right: 200px;
+    margin-left: 150px;
+    background-color: rgb(99, 140, 177);
+    /*background-image: url('lot3');*/
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+ }
+
+ .tabs h1{
+    align-items: center;
+    margin-left: 320px;
+    font-size: 37px;
+ }
+
+ 
+ .tabs .sl{
+    color:black; 
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 10px;
+
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 5px;
+    
+
+    
+ }
+ 
+
+ .tabs .sls{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+    width: 80px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: white;
+ }
+
+ .tabs .mid{
+    padding-top: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 35px;
+    width: 170px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: white;
+ }
